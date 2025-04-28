@@ -20,12 +20,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#define CHORDAL_HOLD
+
 /* VIAL UID for Lily58*/
-#define VIAL_KEYBOARD_UID {0x7E, 0xFD, 0xFC, 0x5B, 0x7D, 0x39, 0x48, 0x06}
+#define VIAL_KEYBOARD_UID \
+    { 0x7E, 0xFD, 0xFC, 0x5B, 0x7D, 0x39, 0x48, 0x06 }
 
 /* VIAL secure unlock keystroke - currently both big keys (typ. SPACE/ENTER) */
-#define VIAL_UNLOCK_COMBO_ROWS {4, 9}
-#define VIAL_UNLOCK_COMBO_COLS {4, 4}
+#define VIAL_UNLOCK_COMBO_ROWS \
+    { 4, 9 }
+#define VIAL_UNLOCK_COMBO_COLS \
+    { 4, 4 }
 
 /* Space reduction */
 
@@ -37,14 +42,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-//#define MASTER_LEFT
-// #define MASTER_RIGHT
+// #define MASTER_LEFT
+//  #define MASTER_RIGHT
 #define EE_HANDS
-#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+// #define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
 
 #define USE_SERIAL_PD2
 //
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
-
-
